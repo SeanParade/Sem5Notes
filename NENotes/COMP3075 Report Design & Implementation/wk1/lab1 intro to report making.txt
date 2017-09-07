@@ -1,0 +1,49 @@
+Lab1:
+How to Make Ugly Shitty Reports Using the 
+Report Project Wizard
+
+Open SQL Server Data Tools
+Business Intelligence
+New Project >
+Reporting Services
+Report Project Wizard
+Next
+Select New Data Source
+Name the Data Source Appropriately
+**Check Make this a shared data source
+Edit
+Server Name: C418[yourcomputer]\SSRS
+Use Windows Authentication
+Select or Enter a Database name:
+Galactic
+Query Builder
+Right CLick > Add Table
+Customer > Add
+Select FROM Customer Table (which columns)
+! to run query
+Exit
+Report Wizard > Next
+Select the Report Type > Tabular (tables)
+Next
+Add Available Fields ields to Displayed Fields
+(Use Page Button)
+Next
+Choose Table Style
+Finish
+Name Report
+Finish
+
+Preview Tab to View the info
+
+To Edit:
+ReportProject>Shared Data Sources>
+Double Click [Galactic.rds]
+
+
+
+
+Other Notes About Installation:
+Folder Name:
+SQL Server 2012 Business Intelligence 
+You will need SQL Server 2012
+Install Business Intelligence ON TOP
