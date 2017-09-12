@@ -80,7 +80,8 @@ startActivity(downloadIntent);
 #### Fragment
 - are components of activities that can be resused
 - to create a fragment, you extend fragment
-![fragLC](fragLC.png)
+
+![fragment life cycle flowchart](../fragLC.png)
 
 #### Android Studio Demo
 
