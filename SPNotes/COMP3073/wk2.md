@@ -60,7 +60,7 @@ ___
   - can be restarted from here `onRestart()`
 - activity destroyed `onDestroy()`
  
-##### Intent
+#### Intent
 > intent is a mechanism for describing a specific action, such as pick a photo, phone home, show map
 
 - How to use
@@ -69,8 +69,21 @@ ___
 ``` Java
 Intent downloadIntent = new Intent(this, DownloadService.class);
 downloadIntent.setData(Uri.parse(fileURL));
-//start intent code here
+startActivity(downloadIntent);
 ```
+
+#### Component based architecture
+- Android allows you to call activities and services from other apps
+- you can send a request (e.g. open a photo or show a map) and it will be served
+- If multiple apps can handle it then user can choose which app will be used
+
+#### Fragment
+- are components of activities that can be resused
+- to create a fragment, you extend fragment
+![fragLC](fragLC.png)
+
+#### Android Studio Demo
+
 
 #### Design Advice
 - beautiful surface, carefully placed animation or a well-times sound effect is a joy to experience
@@ -94,4 +107,4 @@ downloadIntent.setData(Uri.parse(fileURL));
 - Broadcast Receivers - They enable you app to listen for intents that match your criteria
 - Widgets - visual components added to your device home screen
 - Notifications - they allow you to alert users to various events without interrupting the current activity.
-- Inent - mechanism for describing a specific action, such as pick a photo, phone home, show map
+- Intent - mechanism for describing a specific action, such as pick a photo, phone home, show map
