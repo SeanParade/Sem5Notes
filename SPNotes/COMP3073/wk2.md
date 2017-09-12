@@ -7,64 +7,64 @@ ___
 ### Creating Applications and Activities
 - Each app will create at least one activity
 - Each activity has components
- - XML layout for GUI
- - Java Code for activity
+  - XML layout for GUI
+  - Java Code for activity
 
 
 - In the case that a foreground activity needs resources that aren't available due to an application using them, the foreground application will take priority over the the background app to improve user experience
- - _i.e. if you get a phone call while using the map app the phone call service will take whatever resources since it has priority_
+  - _i.e. if you get a phone call while using the map app the phone call service will take whatever resources since it has priority_
 
 
 #### Manifest file
 - AndroidManifest.xml
 - holds the main XML nodes
 
-#### Unser INterface
+#### User Interface
 - resources hold other xml resources that resemble variable data. (strings, colors, etc)
-##### HOW
-- declarative - statically declare the interface in XML
-- procedural - use code to dynamically create the user interface
-- mixed - both
+- How
+  - declarative - statically declare the interface in XML
+  - procedural - use code to dynamically create the user interface
+  - mixed - both
 
 #### XML advice from Google
 - xml is often shorter and easier to understand than procedural generation
 
 #### Elements 
 - Layout
- - ViewGroup
-  - View
+  - ViewGroup
+    - View
   
 - Layout
- - a container for views and view groups
- - commonly used
-  - FrameLayout - All children start at top left
-  - LineaLayout - children in single column or row
-  - RelativeLayout - children in a relative position to each (MOST COMMON)
-  - TableLayout - Grid system
-  - AbsoluteLayout - pixel definitions of spacing
+  - a container for views and view groups
+  - commonly used
+    - FrameLayout - All children start at top left
+    - LineaLayout - children in single column or row
+    - RelativeLayout - children in a relative position to each (MOST COMMON)
+    - TableLayout - Grid system
+    - AbsoluteLayout - pixel definitions of spacing
 
 #### Android Application Life Cycle
 - in Java, your application starts in the `main`
 - in Android it starts in `Activity`
 
 ##### Lifecycles stages
- - activity created `onCreated()`
- - activity started `onStart()` - visible
+- activity created `onCreated()`
+- activity started `onStart()` - visible
   - UI elements loaded
- - activity resumed `onResume()` - visible
+- activity resumed `onResume()` - visible
   - user can interact on this stage
- - activity paused `onPause()` - partially visible
+- activity paused `onPause()` - partially visible
   - can be resumed from here
   - any paused activity can be killed if resources are needed
- - activity stopped `onStop()` - hidden
+- activity stopped `onStop()` - hidden
   - can be restarted from here `onRestart()`
- - activity destroyed `onDestroy()`
+- activity destroyed `onDestroy()`
  
 ##### Intent
 > intent is a mechanism for describing a specific action, such as pick a photo, phone home, show map
 
 - How to use
- - an instance of intent class is created and parameters such as action, category, and data are set.
+  - an instance of intent class is created and parameters such as action, category, and data are set.
  
 ``` Java
 Intent downloadIntent = new Intent(this, DownloadService.class);
