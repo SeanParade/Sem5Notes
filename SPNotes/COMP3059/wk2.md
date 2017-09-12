@@ -73,7 +73,32 @@ To Do this:
 
 ##### Defining a project
 1. Determine the real need (define objective)
+   - Determine the true driver of the project (why is this being made)
+   - Be sure to research the circumstances that generated the project need. Ask why it is to begin the project at this time.
+     - top down-initiative
+	 - bottom-up initiative
+	 - competition change or challenge
+	 - customer request
+	 - technology advance
+   - Perform a SWOT analysis
+     - Strengths, weaknesses, opportunities, threats
+   - Designed to buil interest and enthusiasm, as well as build a common vision towards purpose and goals
+     - Why - Describe project need. Describe problems being solved. Define stragtegic importance (SWOT)
+	 - What - End product or service. Define success criterion
+	 - Who - Identify sponsor, customer, and end users
+	 - How - How will it be completed? How will we know its done?
+	 - Assumptions?
+	 - Constraints
 2. Define the end product/service ( Define Scope)
+  - SCOPE - the sum of the products, activities, and results to be achieved upon completion of a project. Scope helps to define the boundaries of project, and is intended to establish the work required for a successful project completion.
+    - Product scope - the features and functions
+	- Project Scope - the work required to //...
 3. Determine Project priorities (prioritize scope)
 4. Analyze stakeholders
+  - A project will not succeed unless the expectations of the stakeholders are clear and understood by all.
+  - Reviewing the five key stakeholders groups
+    - internal - committed to and participating directing in the project
+	- external - supplying resources to or impacted by the project
+	- Hidden - impacted by the creation //...
 5. create the RAM (Responsibility Assignment Matrix)
+  - View slides for this
