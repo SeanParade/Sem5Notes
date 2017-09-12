@@ -38,7 +38,7 @@ ___
   - a container for views and view groups
   - commonly used
     - FrameLayout - All children start at top left
-    - LineaLayout - children in single column or row
+    - LinearLayout - children in single column or row
     - RelativeLayout - children in a relative position to each (MOST COMMON)
     - TableLayout - Grid system
     - AbsoluteLayout - pixel definitions of spacing
