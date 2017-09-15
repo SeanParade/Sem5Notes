@@ -119,3 +119,7 @@ Two types of audio import formats
 
 #### Asset Management
 - Communicating asset purpose and being able to find assets quickly
+
+#### Asset Stores
+- asset store files can be searched for inside the project panel
+
