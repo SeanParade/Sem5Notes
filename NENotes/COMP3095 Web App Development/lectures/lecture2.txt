@@ -1,0 +1,28 @@
+Lecture 2
+Servlet Intro and Basics
+
+1. Web Application Structure and Directories
+2. Code and test simple servlets
+3. Use web.xml file or annotation to map a servlet to a URL
+
+Servlet Job:
+- read explicit data sent by client
+- read implicit data
+- gen results
+- send explicit data back to the client (HTML)
+- send implicit data back (status codes/response headers)
+
+Servlet Example (Generate Plain Text):
+- a java class file
+- extends HTTPServlet
+- @WebServlet annotation
+	- do not forget to do this *
+	- previously servlets configured in web.xml file
+	- annotation ensures TomCat interprets this as a servlet
+
+We've seen notations before: ex. @Override
+	- overrides a parent method
+
+WAR file
+
+Helper classes

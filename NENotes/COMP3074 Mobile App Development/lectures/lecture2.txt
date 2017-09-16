@@ -1,0 +1,100 @@
+241OVS2G (atklass code)
+
+Android Applications
+1. Activities
+2. Services (started?? and bound?)
+ - what are services?
+ 	- bound services:
+		eg. GPS app, depends on GPS
+	- started? services:
+		eg. keeping track of stock prices
+			- periodically refreshes
+3. Content Providers
+	- database persistence:
+		- Cloud, etc.
+		- stored in database, viewed by others
+4. Intents
+	- we will work on this Thursday*
+	- within an activity, starting a new activity on another app
+		- e.g. need to send a message from inside app
+		- needs to start the connectivity of the messenger
+		- do this using an Intent Object
+5. Broadcast Receivers
+6. Widgets
+7. Notifications 
+
+Last Time:
+we looked at the Android Manifest (XML file)
+	- each activity: contains an XML node
+
+Changing an App:
+1. Declarative:
+	- change using the XML
+2. Procedural:
+	- change usign Java
+3. Mixed:
+	- both
+
+* Use declarative XML as much as possible
+	- easier to understand, less likely to change
+
+Basic Elements
+1. View
+2. ViewGroup
+3. Layout
+* see PP for diagram
+	- Frame
+	- Linear
+	- Relative
+	- Table
+	- Absolute (unpopular)
+
+Vertical
+	- res/layout-land/main.xml
+	- can contain TableLayout nested in ListLayout
+Horizontal
+	- res/layout/main.xml
+	- can contain ListLayout
+
+Cognitive Friction
+	- allow manipulation of objects, rather than checkboxes with sudden adjustments
+
+Simplify:
+- Brief (least wording possible)
+- Pictures > Words
+- Best Guess but allow user to make changes
+- Only show me when I need it:
+- Learn from preferences
+	- statistically, what is the path that the user takes more often?
+	- make that the first option for the user
+	- next week (how to use User Preferences to store Data)
+
+"The inmates are running the asylum"
+- book to read (presumably about design and programming)
+
+Starting an Activity:
+	- not main() method
+	- starts in an Activity instance
+		- callback methods to start and stop
+
+Android Application Life Cycle
+1. onCreate() - Activity is Created 
+2. onStart() - Activity is Started
+3. onResume() - Load shared preferences, and other data
+		- why not load data on the start or create?:
+			- if the app gets paused,
+			- the activity should be silently killed
+				(if the activity in the foreground needs more resources)
+onPause()
+onStop()
+onDestroy()
+
+Introduction
+UI Guidelines
+Activities and Fragments
+Activities
+intents
+Introducing Fragments
+Fragment Lifecycle
+Fragments in Activity
+Activity States

@@ -1,0 +1,12 @@
+https://vimeo.com/230752183/6a6267cb75
+
+Download sigcheck from Microsoft Site
+Move sigcheck to the Desktop
+
+open command prompt as admin
+>sigcheck.exe -a -h D:\Windows > C:\Users\nooran\Desktop\SCtext.txt
+- agree
+- open file to check  what's unsigned
+
+man shasum
+- print or check SHA
