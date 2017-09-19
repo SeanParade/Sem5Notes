@@ -41,7 +41,51 @@ public void onClick(View v){
 }
 ```
 
-### Assignment 1
+### MVC
+- Model
+  - Controller as a reaction to the event notifies the model
+  - model is updated and sends the information to the View to refresh (invalidate)
+- View
+  - Applications feedback to the user
+  - portion of application resposible for rendering the display
+  - represent a rectangular area on screen completely within the rectangular area represented by its parent on the tree
+  - root of this tree is the application window
+- Controller
+  - Portion of an application that responds to external actions
+    - keystrokes, screen taps, incoming calls, etc
+  - System maintains a queue of events and removes events in order and dispatches them
+
+### GUI Components
+#### Views
+- TextView 
+  - is for display only
+  - can be used as a label or as a way to present text without an option
+  - can change height, width, font, color (f+b), etc.
+  - Non standard properties:
+    - autoLink 
+	  - if true, findes URLs in the displayed text and automatically converts to clickable link
+	- autoText
+	  - if true, finds and corrects simple spelling errors in the text
+	- editable 
+	  - if true, indicates that the program has defined an input method to receive input text
+	- inputMethod
+	  - identifies the input method
+	- inputType
+	  - specifies the type of input (e.g. phone no, email, password)
+- EditText
+  -  predefined subclass of TextView that includes rich editing capabilities
+- Button
+  - button printed with some text to identify it, that the user can click to invoke some action
+- ImageButton
+  - button with an image on it rather than one with text
+- Adapters
+  - has two resposibilites
+    - find the data object that corresponds to a particular index
+	- supply a view through which the data at a particular index can be displayed
+  
+
+
+#### Assignment 1
 - Graded on layout and Java code
 - partial weight on design
 - naming conventions are important
