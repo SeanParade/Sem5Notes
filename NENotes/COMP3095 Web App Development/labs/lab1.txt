@@ -1,0 +1,7 @@
+Lab 1
+Exercises
+1. Two servlets cannot have the same name despite being in different packages
+2. Select Run from the servlet -> Select Finish
+3. TimeAndDate
+4. OddOrEven
+5. added isPrime function

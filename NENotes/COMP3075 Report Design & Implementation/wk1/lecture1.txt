@@ -1,3 +1,0 @@
-Benefit of SQL Server Reporting Services
-- free of charge (with SQL Server)
-

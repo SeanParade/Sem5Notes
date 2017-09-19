@@ -1,0 +1,106 @@
+Tyler (dude who helps with Capstone stuff)
+- Adopting best practice principles
+- Intro the projects working with
+- Build collaboration b/w programmers + post-graduate business analysts
+- Agile Development
+
+Agile Development:
+- iterative, incremental
+- collaborative
+- cost-effective, timely
+
+4 key principles:
+1. individuals and interactions > processes and tools
+	- work with people to work out what's needed
+2. working software > comprehensive documentation
+	- sometimes documentation is mandatory (big, governed orgs)
+3. customer collaboration > contract negotiation
+	- working with people = foundational to incrementally deliver over "sprints"
+4. responding to change > following a plan
+	- gives opportunity to deviate from rigid plans
+	- ie. waterfall = once you define what you're building, you need to build exactly that
+		- by the time of release, the original specs = no longer the need
+	- respond to needs in "real-time"
+
+Backlog:
+Prioritize Low priority -> High Priority
+"User stories" AKA requirements
+- build the backlog
+- what the project needs
+
+Daily meetings (10-15 minutes)
+- what has been delivered
+- what has been done 
+- what needs to be done
+
+Showcase:
+Present to our partners what has been completed successfully
+- demo of functionality that has been implemented
+
+After: Sprint again
+- which next user stories are you going to work on?
+
+Evolution of Requirements:
+- Idea & Feasibility
+	- Vision
+	- Aspirational Journey
+- Scope Definition
+	- User Story & Process Maps
+	- Low-Fidelity Wireframes
+- Execution/ Build/ Test
+	- Use-Case & Mockups
+
+Tyler will possibly come before class (we'll start early on those days)
+
+
+<hr>
+
+Regular class notes start here
+
+Project Initiation:
+1. Developing a Charter
+2. Developing a Preliminary Scope Statement
+
+5 Steps to Defining a Project:
+1. define charter
+2. define prelim. scope statement
+3. define stakeholders
+	- what is their role/involvement with the project?
+4. create RAM
+	- Responsibility Assignment Matrix
+	- primary responsible member, secondary, etc.
+5. obtain sign-off
+
+Determining the "Real" Need
+- driver/ main purpose (why do we need this?)
+- research circumstances that lead to the driver
+- SWOT analysis - Strength Weakness Opportunities and Threats
+
+From now->
+- take minutes at group meetings
+
+For us:
+Priorities:
+1. Scheduling/ Calendar
+	- inputing orders?
+	- take due date and schedule accordingly
+	- things to keep in mind: 
+		- juggling available equipment?
+			- equipment will be ---	
+		- what happens when a new order conflicts with timing of another?	
+		- what happens when a process is started/ running late?
+2. Inventory management?
+3. Recipe Steps Walkthrough (Tap-through)
+	- extending to mobile app?
+	- would be cool to add the other functions to mobile as well
+
+other questions:
+- what users would be authorized to add inventory/ start scheduling?
+
+What we need to do this week:
+- make a list of information we need, and send to Jan
+
+what I need to do this week:
+- learn JSNode
+- specifically look up how to connect to database using JSNode
+
