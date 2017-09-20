@@ -80,3 +80,7 @@ ____
 - CONNECT
 
 ### Form Basics
+- `request.getParameter("name")` pulls a parameter from a request
+  - works on GET and POST
+  - returns `null` if no such parameter is in query data
+    - its important to check for nulls
