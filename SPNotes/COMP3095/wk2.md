@@ -41,21 +41,6 @@ ___
 - Send the explicit data back to the client (HTML)
 - Send the implicit data back to the client 
 
-#### Code and test simple servlets
-
-
-#### Use the web.xml file or annotation to map a servlet to a URL
-
-#### Provide for server-side data validation in you application
-
-#### Use web.xml to set initialization parameters
-
-#### Use the web.xml file to implement custom error handling
-
-#### Write debugging data for a servlet (console or log file)
-
-#### Basic structure of servlets
-
 #### A simple servlet that generates plain text
 ``` Java
 
@@ -89,15 +74,3 @@ public class HelloWorld extends HttpServlet{
   - Data Abstraction
   - Polymorphism
   - Inheritance
-  
-
-
-#### The servlet life cycle
-
-#### Servlet debugging techniques
-
-#### Describe servlets and servlet mapping
-
-#### Describe how parameters are passed to a servlet with HTTP GET
-
-####  List 3 reasons for using the HTTP POST method instead of get
