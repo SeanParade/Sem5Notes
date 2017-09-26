@@ -19,6 +19,7 @@ ___
   -getContentLength()
     - returns length in bytes of the reqest body, or -1 if the length is not known
   -getContentType()
+  -getDataType
 ```Java
 //Header access example
 
