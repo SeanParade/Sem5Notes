@@ -37,7 +37,7 @@ ___
 public void itemClicked(long id) {
 	WorkoutDetailFragment details = new WorkoutDetailFragment();
 	FragmentManager fm = getFragmentManager();      // alternativly you could just
-	FragmentTransaction ft = fm.beginTransaction(); // do FragmentTransaction ft = getFragmentManager().beginTransaction();
+	FragmentTransaction ft = fm.beginTransaction(); // do FragmentTransaction ft = getFragmentManager().beginTransaction(); 
 }
 ```
 
@@ -45,4 +45,5 @@ public void itemClicked(long id) {
 > when a transaction completes, it should be done in one part of smaller parts
 - Atomic
 - Consistency
--
+- Isolation
+- Durability
