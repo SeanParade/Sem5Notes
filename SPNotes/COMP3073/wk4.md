@@ -41,9 +41,21 @@ public void itemClicked(long id) {
 }
 ```
 
-### ACID (database) transactions
+#### ACID (database) transactions
 > when a transaction completes, it should be done in one part of smaller parts
 - Atomic
 - Consistency
 - Isolation
 - Durability
+
+
+___
+
+### Styles
+- essentially css for xml layouts
+- styles can be inheritied
+- style reuse can be done
+  - res/values/mystyle.xml
+  - ` <style name="GreenText" parent="@android:style/TextAppearance" ...`
+  
+  
