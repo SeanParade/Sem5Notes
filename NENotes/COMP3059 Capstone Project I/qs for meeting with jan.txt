@@ -1,0 +1,20 @@
+questions for business requirements and other general capstone notes
+
+- equipment 
+	- switch over time?
+	- cleaning time?
+	- does the equipment ever have malfunctions that set back the timing?
+		- (do we need to have a plan in place in case of malfunctions,
+			being able to pause or change scheduling of baking)
+- users
+	- what will regular users be able to access? 
+		- the schedule for themselves only?
+		- the schedule for the whole bakery?
+		- the inventory and back end? (or just elevated users ie. manager and owners)
+
+- possible use cases to plan for?
+	- e.g. scheduled baker not coming in, reassigning duties to someone else
+	- e.g. equipment breakdown or malfunction, unexpected situations that might delay the
+		continuation of recipes / scheduling
+
+	
