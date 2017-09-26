@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+
+
+<style>
+body {
+  min-width: 200px;
+  max-width: 790px;
+  margin: 0 auto;
+  padding: 30px;
+}
+</style>
+</head>
+<body>
+<div class="markdown-body">
+
+<h1>
+<a id="user-content-comp3095" class="anchor" href="#comp3095" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>COMP3095</h1>
+<h4>
+<a id="user-content-week-2" class="anchor" href="#week-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 2</h4>
+<p>Tue Sep 12 16:10:03 DST 2017</p>
+<hr>
+<h3>
+<a id="user-content-servlet-introduction-and-basics" class="anchor" href="#servlet-introduction-and-basics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Servlet Introduction and Basics</h3>
+<h4>
+<a id="user-content-web-application-structure-and-directories" class="anchor" href="#web-application-structure-and-directories" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web Application Structure and Directories</h4>
+<ul>
+<li>
+<p>ApplicationName</p>
+<ul>
+<li>.settings</li>
+<li>build</li>
+<li>src
+<ul>
+<li>coreservlets</li>
+<li>testPackage</li>
+</ul>
+</li>
+<li>WebContent
+<ul>
+<li>META-INF</li>
+<li>WEB-INF
+<ul>
+<li>lib
+<ul>
+<li>third-party-packages-go-here.jar</li>
+</ul>
+</li>
+<li>web.xml</li>
+</ul>
+</li>
+<li>css
+<ul>
+<li>main.css</li>
+</ul>
+</li>
+<li>example.html</li>
+<li>example.jsp</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>WebContent is the only thing moved over to tomcat</p>
+</li>
+<li>
+<p>root - contains the HTML and JSP files</p>
+</li>
+<li>
+<p>WEB-INF - contains the web.xml file and is not directly accessible from the web</p>
+</li>
+<li>
+<p>WEB-INF\classes - Contains the servlets and other Java classes for your application. Each subdirectory corresponds with the package for the Javaclass</p>
+</li>
+<li>
+<p>WEB-INF\lib - contains any JAR files for third-party libraries</p>
+</li>
+</ul>
+<h4>
+<a id="user-content-servlets-job" class="anchor" href="#servlets-job" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Servlets Job</h4>
+<ul>
+<li>Read explicit data sent by the client (form data)</li>
+<li>Read implicit data sent by the client (request headers)</li>
+<li>Generate the results</li>
+<li>Send the explicit data back to the client (HTML)</li>
+<li>Send the implicit data back to the client</li>
+</ul>
+<h4>
+<a id="user-content-code-and-test-simple-servlets" class="anchor" href="#code-and-test-simple-servlets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Code and test simple servlets</h4>
+<h4>
+<a id="user-content-use-the-webxml-file-or-annotation-to-map-a-servlet-to-a-url" class="anchor" href="#use-the-webxml-file-or-annotation-to-map-a-servlet-to-a-url" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Use the web.xml file or annotation to map a servlet to a URL</h4>
+<h4>
+<a id="user-content-provide-for-server-side-data-validation-in-you-application" class="anchor" href="#provide-for-server-side-data-validation-in-you-application" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Provide for server-side data validation in you application</h4>
+<h4>
+<a id="user-content-use-webxml-to-set-initialization-parameters" class="anchor" href="#use-webxml-to-set-initialization-parameters" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Use web.xml to set initialization parameters</h4>
+<h4>
+<a id="user-content-use-the-webxml-file-to-implement-custom-error-handling" class="anchor" href="#use-the-webxml-file-to-implement-custom-error-handling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Use the web.xml file to implement custom error handling</h4>
+<h4>
+<a id="user-content-write-debugging-data-for-a-servlet-console-or-log-file" class="anchor" href="#write-debugging-data-for-a-servlet-console-or-log-file" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Write debugging data for a servlet (console or log file)</h4>
+<h4>
+<a id="user-content-basic-structure-of-servlets" class="anchor" href="#basic-structure-of-servlets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Basic structure of servlets</h4>
+<h4>
+<a id="user-content-a-simple-servlet-that-generates-plain-text" class="anchor" href="#a-simple-servlet-that-generates-plain-text" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A simple servlet that generates plain text</h4>
+<div class="highlight highlight-source-java"><pre>
+<span class="pl-k">@WebServlet</span>(<span class="pl-s"><span class="pl-pds">"</span>/hello<span class="pl-pds">"</span></span>) <span class="pl-c"><span class="pl-c">//</span>very important to annotate the servlet. this is for configuration purposes in tomcat.</span>
+<span class="pl-c"><span class="pl-c">//</span> "/hello" argument is where the application will be exposed (e.g. http://localhost:port/ApplicationName/hello)</span>
+<span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">HelloWorld</span> <span class="pl-k">extends</span> <span class="pl-e">HttpServlet</span>{
+	<span class="pl-k">@Override</span>
+	<span class="pl-k">protected</span> <span class="pl-k">void</span> <span class="pl-en">doGet</span>(<span class="pl-smi">HttpServlet</span> <span class="pl-smi">Request</span> <span class="pl-v">request</span>, <span class="pl-smi">HttpServletResponse</span> <span class="pl-v">response</span>) <span class="pl-k">throws</span> <span class="pl-smi">ServletException</span>, <span class="pl-smi">IOException</span>{
+		<span class="pl-smi">PrintWriter</span> out <span class="pl-k">=</span> response<span class="pl-k">.</span>getWriter();
+		out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Hello World<span class="pl-pds">"</span></span>);
+	}
+	
+	<span class="pl-k">protected</span> <span class="pl-k">void</span> <span class="pl-en">doPost</span>(<span class="pl-smi">HttpServletRequest</span> <span class="pl-v">request</span>, <span class="pl-smi">HttpServlet</span> <span class="pl-v">response</span>) <span class="pl-k">throws</span> <span class="pl-smi">ServletException</span>, <span class="pl-smi">IOException</span>{
+	doGet(request, response);
+	}
+	
+<span class="pl-c"><span class="pl-c">//</span> This simply writes "Hello World" to the webpage.</span></pre></div>
+<ul>
+<li>Code concepts
+<ul>
+<li>@WebServlet("/address")
+<ul>
+<li>this is the URL relative to the application name</li>
+</ul>
+</li>
+<li>doGet() - code for an HTTP GET request</li>
+<li>doPost() - code for an HTTP POST request</li>
+</ul>
+</li>
+<li>//... MORE HERE</li>
+</ul>
+<h4>
+<a id="user-content-using-helper-classes" class="anchor" href="#using-helper-classes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using helper classes</h4>
+<ul>
+<li>All java code goes to the same place
+<ul>
+<li>in eclipse, source code goes in src/packageName</li>
+</ul>
+</li>
+<li>Always remember OO Principles
+<ul>
+<li>Excapsulation</li>
+<li>Data Abstraction</li>
+<li>Polymorphism</li>
+<li>Inheritance</li>
+</ul>
+</li>
+</ul>
+<h4>
+<a id="user-content-the-servlet-life-cycle" class="anchor" href="#the-servlet-life-cycle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The servlet life cycle</h4>
+<h4>
+<a id="user-content-servlet-debugging-techniques" class="anchor" href="#servlet-debugging-techniques" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Servlet debugging techniques</h4>
+<h4>
+<a id="user-content-describe-servlets-and-servlet-mapping" class="anchor" href="#describe-servlets-and-servlet-mapping" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Describe servlets and servlet mapping</h4>
+<h4>
+<a id="user-content-describe-how-parameters-are-passed-to-a-servlet-with-http-get" class="anchor" href="#describe-how-parameters-are-passed-to-a-servlet-with-http-get" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Describe how parameters are passed to a servlet with HTTP GET</h4>
+<h4>
+<a id="user-content-list-3-reasons-for-using-the-http-post-method-instead-of-get" class="anchor" href="#list-3-reasons-for-using-the-http-post-method-instead-of-get" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>List 3 reasons for using the HTTP POST method instead of get</h4>
+
+</div>
+</body>
+</html>
