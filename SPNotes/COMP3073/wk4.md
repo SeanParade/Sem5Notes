@@ -20,6 +20,7 @@ ___
   - accessible by the `getFragmentManager` method
   - provides methods to access the fragments
   - object that gives you a collection of the fragments
+  
 
 #### Building Fragments
 - You extend the fragment class and optionally define a UI and implement the functionality it encapsulates
@@ -30,3 +31,18 @@ ___
 - only one has its own layout
 - both have their own java classes
 - the fragment class looks very similar to the activity class
+
+
+```Java
+public void itemClicked(long id) {
+	WorkoutDetailFragment details = new WorkoutDetailFragment();
+	FragmentManager fm = getFragmentManager();      // alternativly you could just
+	FragmentTransaction ft = fm.beginTransaction(); // do FragmentTransaction ft = getFragmentManager().beginTransaction();
+}
+```
+
+### ACID (database) transactions
+> when a transaction completes, it should be done in one part of smaller parts
+- Atomic
+- Consistency
+-
