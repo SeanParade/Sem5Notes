@@ -25,7 +25,7 @@ ___
   - getRequestURI()
   - getQueryString
   - getProtocol()
-  
+   
   
 ```Java
 //Header access example
