@@ -13,10 +13,18 @@ ___
     - returns all the values of the specified request header as an Enumeration of String Objects
   - getHeaderNames()
     - returns an enumeration of all the header name values as an enumeration
+  - getCookies()
+  -getAuthType()
+  -getRemoteUser()
+  -getContentLength()
+    - returns length in bytes of the reqest body, or -1 if the length is not known
+  -getContentType()
 ```Java
 //Header access example
 
 private String getUserAgent(){
   return request.getHeader("user-agent");
 }
+
 ```
+> When extracting any values from a header, you should always check if they are `null`
