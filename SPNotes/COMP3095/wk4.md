@@ -7,6 +7,7 @@ ___
 ### Headers
 - Headers can be faked
 - in HTTP 1.1, headers are optional
+- implicit data and explicit data is seperated by a CRLF (Control Line Feed)
 
 #### Methods in HttpServletRequest
 - General
@@ -43,3 +44,29 @@ private String getUserAgent(){
 ___
 
 ### Status Codes
+- methods
+  - response.setStatusCode(int StatusCode)
+    - Constant are in HttpServletResponse
+    - Names are derived from standard message
+  	  - SC_OK
+	  - SC_NOT_FOUND
+  - response.sendError(int code, String message)
+    - wraps message inside a small HTML document
+  - response.sendRequest(String url)
+    - Set status code to *302*
+	- redirects to a new location
+
+
+- 100-199
+  - Informational
+  - Request was received and is being processed
+- 200-299 
+  - Success
+  - Request was successful
+- 300-399
+  - Redirection
+  - Further action must be taken to fulfill the request
+- 400-499 
+  - Client errors
+- 500-559
+  - Server Errors
