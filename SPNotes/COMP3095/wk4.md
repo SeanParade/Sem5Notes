@@ -5,6 +5,9 @@ Tue Sep 26 16:03:52 DST 2017
 ___
 
 ### Headers
+- Headers can be faked
+- in HTTP 1.1, headers are optional
+
 #### Methods in HttpServletRequest
 - General
   - getHeader()
@@ -19,11 +22,11 @@ ___
   - getContentLength()
     - returns length in bytes of the reqest body, or -1 if the length is not known
   - getContentType()
-  - getDataType
-  - getMethod
+  - getDataType()
+  - getMethod()
    - get the request method type
   - getRequestURI()
-  - getQueryString
+  - getQueryString()
   - getProtocol()
    
   
