@@ -11,7 +11,7 @@ ___
 ```Csharp
 void Awake()
 {
-	if(Instance ==null)
+	if(Instance == null)
 	{
 		Player.Instance = this;
 		DontDestroyOnLoad(this.gameObject);
@@ -29,4 +29,12 @@ ___
 ### UI
 - can Exist as part of screen space as well as world space
 - Screen space UI provides a way to define HUD, Menus with buttons, text displaying game info, etc
+- Creating can be done by GameObject > UI > (menu options)
+- All UI elements will be a child of Canvas in a HUD
+- Canvas element is ordered by top0down in the hierarchy
 
+- Render Modes
+  - Screen Space - Overlay
+  - Screen Space - Camera
+  - World Space
+    - turn on a tv or monitor and interact with it
