@@ -70,7 +70,7 @@ public class HelloWorld extends HttpServlet{
 - All java code goes to the same place
   - in eclipse, source code goes in src/packageName
 - Always remember OO Principles
-  - Excapsulation
+  - Encapsulation
   - Data Abstraction
   - Polymorphism
   - Inheritance
