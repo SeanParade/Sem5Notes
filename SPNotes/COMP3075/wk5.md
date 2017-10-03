@@ -49,6 +49,8 @@ super(context,
 - database file is protected on the system level. (local only)
 - possible to read/write remotely, just be wary of resources
   - needs a connection object
+- `getReadable()`
+- `getWritable()`
 
 #### SQLite and Android
 - Andoird Classes
