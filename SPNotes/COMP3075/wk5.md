@@ -51,7 +51,7 @@ super(context,
   - needs a connection object
 - `getReadable()`
 - `getWritable()`
-
+- if you run a DDL call on a connection object, you will get feedback from that call
 #### SQLite and Android
 - Andoird Classes
   - SQL helper class
