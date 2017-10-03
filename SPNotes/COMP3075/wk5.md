@@ -42,3 +42,21 @@ super(context,
 
 - onCreate runs the first time the DB is made
 - onUpgrade runs when the DB changes version
+
+#### Reading and writing
+- To create a new table you run a selection query
+- to read rows from the table, you need a cursor object
+- database file is protected on the system level. (local only)
+- possible to read/write remotely, just be wary of resources
+  - needs a connection object
+
+#### SQLite and Android
+- Andoird Classes
+  - SQL helper class
+    - creating DB
+	- Getting access to DB
+	- keeping DB in shape
+  - SQL database class
+    -
+  - Cursor class
+  
