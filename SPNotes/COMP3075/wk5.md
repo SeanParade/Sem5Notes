@@ -52,6 +52,8 @@ super(context,
 - `getReadable()`
 - `getWritable()`
 - if you run a DDL call on a connection object, you will get feedback from that call
+- if you call `execSQL`, no feedback from the method on whether or not the operation succeeded
+
 #### SQLite and Android
 - Andoird Classes
   - SQL helper class
