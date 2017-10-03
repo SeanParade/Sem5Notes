@@ -57,6 +57,6 @@ super(context,
 	- Getting access to DB
 	- keeping DB in shape
   - SQL database class
-    -
   - Cursor class
+  
   
