@@ -70,3 +70,7 @@ ___
     - collider2d
   - Trigger or not
   - Kinematic or not
+- Scripting and UI
+  - *Singleton (Definitely on test)*
+  - Building HUD and counting points/health
+  
