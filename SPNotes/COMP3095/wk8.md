@@ -16,3 +16,5 @@ ___
   -  Split up work between presentation layer and application layer
 - Organized code
   - Seperate java code that creates the content from the presentation layer
+### ON TEST
+> JSPs are servlets. Jsps are java code being run through a "translator" (probably meant compiler).
