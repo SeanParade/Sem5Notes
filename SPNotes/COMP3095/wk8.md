@@ -6,4 +6,13 @@ ___
 
 # JSP
 
-### 
+### Concept
+- use regular markup for most of the page
+- mark servlet code with special tags
+- servlet code is run on the server and sent in the response
+### Benefits
+- Read/Write html within jsp
+- Specialization 
+  -  Split up work between presentation layer and application layer
+- Organized code
+  - Seperate java code that creates the content from the presentation layer
