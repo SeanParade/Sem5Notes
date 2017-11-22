@@ -13,3 +13,11 @@
   - will show where there are no matching values
 - regular: every matching value
 
+### How to Match Two Tables
+> Q:  What do they have to have in common?
+
+- foreign key in child, primary key in parent
+- can join two tables as long as they share a common column
+
+
+
