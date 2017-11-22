@@ -118,3 +118,7 @@
 - expression language makes your JSPs cleaner
 - makes it less like Java and more like HTML
 
+##### buffer Attribute
+- not used very often
+- give a buffer size for your output
+  
