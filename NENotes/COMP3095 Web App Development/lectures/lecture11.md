@@ -70,4 +70,19 @@
   - <% code fragment %>
   - any number of statements, declarations, expressions valid in Java
 
+#### contentType and pageEncoding
+- not very important (pageEncoding)
 
+##### Three Examples
+```jsp
+
+<%@page contentType="MIME-Type"%>
+
+```
+- Two other examples in powerpoint
+
+#### Generating Excel Spreadsheet
+- tabs between columns
+- Excel.jsp file that marks contentType as application/vnd.ms-excel
+  - contained under WEB-INF folder
+  
