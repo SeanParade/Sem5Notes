@@ -14,6 +14,9 @@
 > A: Manage the presentation layer, take HTML code blocks out of Java
 - **Misconception** : Your job is to solve business problems, not just to code
 - building confidence in your ability to learn technology is the easy part, it becomes repetitive
+- what doesn't change is the problem solving aspect
+- **MVC** Model View Controller
+- JSPs uniquely "house" the presentation layer of the application
 
 ## JSP Page Directive
 
