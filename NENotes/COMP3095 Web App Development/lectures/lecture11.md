@@ -143,3 +143,7 @@ ComputeSpeed.jsp reported the following error:
 </p>
 
 ```
+
+<hr>
+
+### Lecture 12
