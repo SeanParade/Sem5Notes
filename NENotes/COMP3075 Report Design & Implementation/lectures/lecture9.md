@@ -8,3 +8,7 @@
 - Module 1 -7 will be in the midterm
 - T/F; MC; ShortAnswer
 
+### Regular Join Vs Left Outer Join
+- left: every single row from table on left side
+  - will show where there are no matching values
+- regular: every matching value
