@@ -22,3 +22,6 @@ ___
 - You can change the thresholds of an animation with Parameters in the Animation Controller
 
 ### Quaterians
+- Represents a rotation
+- Underlying math is quite complicated
+- almost never access it by it's individual components (x,y,z,w)
