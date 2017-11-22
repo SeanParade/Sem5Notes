@@ -122,3 +122,7 @@
 - not used very often
 - give a buffer size for your output
   
+##### errorPage Attribute
+- some significance, usable
+- specifies an error page that should be used if any exceptions are thrown but not caught by the current page
+- JSP inside your JSP
