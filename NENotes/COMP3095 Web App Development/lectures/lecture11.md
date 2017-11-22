@@ -150,5 +150,6 @@ ComputeSpeed.jsp reported the following error:
 ### Including Files in JSP pages
 - use jsp:include
 - use <%@ include ...%>
-  - diff between these two: one is concerned with adding dynamic content
+  - diff between these two: 
+	- one is concerned with adding dynamic content
 	- the other is concerned with adding static content
