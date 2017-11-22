@@ -68,4 +68,4 @@
   - produce output (e.g. returning variable to screen)
 - scriptlets:
   - <% code fragment %>
-  - 
+  - any number of statements, declarations, expressions valid in Java
