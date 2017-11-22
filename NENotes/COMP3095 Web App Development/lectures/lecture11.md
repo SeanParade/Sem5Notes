@@ -63,7 +63,9 @@
 
 #### Three JSP thingys
 - declarations
+  - declaring a variable etc. to be used later
 - expressions
   - produce output (e.g. returning variable to screen)
 - scriptlets:
   - <% code fragment %>
+  - 
