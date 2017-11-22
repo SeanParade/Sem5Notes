@@ -169,3 +169,11 @@ ComputeSpeed.jsp reported the following error:
 - review this diagram
 - when it is TRANSLATED is important for the **static** content
 
+#### Including JSP Pages at Request Time
+```jsp
+<jsp:include page="Relative Address">
+```
+- reuse JSP or HTML or plain text content
+- updates to included content without changing the main page
+- **dynamic include**
+  - e.g. 
