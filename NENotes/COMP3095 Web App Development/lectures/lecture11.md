@@ -176,4 +176,4 @@ ComputeSpeed.jsp reported the following error:
 - reuse JSP or HTML or plain text content
 - updates to included content without changing the main page
 - **dynamic include**
-  - e.g. time, date, chatroom? sports scores
+  - e.g. time, date, chatroom? sports scores, news feeds
