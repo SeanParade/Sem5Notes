@@ -164,6 +164,8 @@ ComputeSpeed.jsp reported the following error:
 4. Service client request(s)
 5. Eventually instance is **destroyed**
 
+##### Note
 ** WILL BE ON THE FINAL EXAM**
 - review this diagram
+- when it is TRANSLATED is important for the **static** content
 
