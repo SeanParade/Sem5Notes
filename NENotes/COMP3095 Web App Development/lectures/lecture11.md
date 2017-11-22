@@ -134,4 +134,12 @@
 - indicates whether the page is an error page
 - use this as backup
   - try to handle exceptions within your code
-  
+- don't have to define the exception, can just call it
+
+```jsp
+<p>
+ComputeSpeed.jsp reported the following error:
+<%= exception %>
+</p>
+
+```
