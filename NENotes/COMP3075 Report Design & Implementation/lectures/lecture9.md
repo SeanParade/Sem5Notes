@@ -19,5 +19,7 @@
 - foreign key in child, primary key in parent
 - can join two tables as long as they share a common column
 
+- expect generic questions about SQL
+
 
 
