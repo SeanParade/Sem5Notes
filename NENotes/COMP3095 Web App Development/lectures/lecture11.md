@@ -153,3 +153,9 @@ ComputeSpeed.jsp reported the following error:
 - diff between these two: 
   - one is concerned with adding dynamic content
   - the other is concerned with adding static content
+  
+  
+#### Review: JSP Lifecycle
+** WILL BE ON THE FINAL EXAM**
+- review this diagram
+
