@@ -22,3 +22,6 @@ ___
   
 ### ON TEST
 > JSPs are servlets. Jsps are java code being run through a "translator" (probably meant compiler).
+
+
+### 
