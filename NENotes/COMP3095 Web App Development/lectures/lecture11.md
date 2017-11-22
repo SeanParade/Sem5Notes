@@ -86,3 +86,6 @@
 - Excel.jsp file that marks contentType as application/vnd.ms-excel
   - contained under WEB-INF folder
   
+> Q: When are JSPs converted to servlets?
+> A: When the first request is received
+
