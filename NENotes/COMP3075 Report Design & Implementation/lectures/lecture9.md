@@ -12,3 +12,4 @@
 - left: every single row from table on left side
   - will show where there are no matching values
 - regular: every matching value
+
