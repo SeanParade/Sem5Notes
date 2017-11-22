@@ -61,7 +61,7 @@
 > Q: What packages will the system think that SomeHelperClass and SomeUtilityClass are in?
 > A : They don't know unless you import the classes in the JSP using import statements
 
-#### Three JSP thingys
+#### Review: Three Elements of JSPs
 - declarations
   - declaring a variable etc. to be used later
 - expressions
@@ -69,3 +69,5 @@
 - scriptlets:
   - <% code fragment %>
   - any number of statements, declarations, expressions valid in Java
+
+
