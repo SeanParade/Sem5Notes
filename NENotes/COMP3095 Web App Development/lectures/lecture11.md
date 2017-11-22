@@ -156,6 +156,12 @@ ComputeSpeed.jsp reported the following error:
   
   
 #### Review: JSP Lifecycle
+1. Web container receives a request for a JSP
+   - if JSP **has NOT changed**, container services the request
+   - if it's the **FIRST** request, or it **HAS changed**, the container translates the JSP
+2. JSP translated into servlet-like implementation class
+
+
 ** WILL BE ON THE FINAL EXAM**
 - review this diagram
 
