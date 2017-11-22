@@ -129,3 +129,9 @@
 - inherit exception variable in the error page you direct to
 - can set error pages globally for all JSPs to use
 
+##### isErrorPage Attribute
+- set isErrorPage = true
+- indicates whether the page is an error page
+- use this as backup
+  - try to handle exceptions within your code
+  
