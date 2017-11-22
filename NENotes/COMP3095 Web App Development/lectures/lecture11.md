@@ -192,3 +192,9 @@ ComputeSpeed.jsp reported the following error:
 ```
 - becomes static because the include happens at **translation time**
   - once it's there, it's there until it's modified
+  
+#### JSP includes VS
+- use jsp:include whenever possible
+  - does not require manual updates
+	- speed diff
+- static include avoid overhead
