@@ -35,5 +35,24 @@
 - setting size and behaviour of output buffer
 - designating pages to handle JSP errors
 
+### Purpose
+- give high-level information about the servlet that will result from the JSP page
+  - imported classes
+  - extended classes
+  - MIME type
+  - how multithreading is handled
+  - if sessions
+  - size & behavior of buffer output
+  - where errors
+  
+### Import Attribute
+#### Format
+
+```jsp
+
+<%@ page import="package.class"%>
+<%@ page import="package.class1"%>
+
+```
 
 
