@@ -105,3 +105,14 @@
 ```
 - session is set to true on default
 
+##### isELIgnored
+- JSP 2.0 Expression Lanuage
+
+```jsp
+<%@ page isELIgnored="false"%>
+```
+- you are never going to set this in here
+- servlets 2.3 or earlier default == true
+- servlets 2.4 or later default == false
+  - ours is 3.1 == default is FALSE
+  
