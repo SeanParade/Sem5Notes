@@ -126,4 +126,4 @@
 - some significance, usable
 - specifies an error page that should be used if any exceptions are thrown but not caught by the current page
   - avoid crash
-  
+- inherit exception variable in the error page you direct to
