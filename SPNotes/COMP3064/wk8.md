@@ -16,6 +16,8 @@ ___
 - rigs need to be definied as humanoid or generic as machanim does not work with legacy character and animations.
 - Avatar
   - definition for your rig. Use it to retarget animations that have the same rig
--
+- Root Motion
+  - Basic motion of your character
+  - e.g. whale swimming
 
 ### Quaterians
