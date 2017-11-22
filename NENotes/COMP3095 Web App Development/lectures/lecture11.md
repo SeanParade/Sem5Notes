@@ -89,3 +89,19 @@
 > Q: When are JSPs converted to servlets?
 > A: When the first request is received
 
+- example code of conditionally generated Spreadsheet
+  - why is it a scriptlet?
+	- want to get a parameter, test the value, and set the content type
+	
+#### session, isELIgnored, buffer, errorPage, isErrorPage
+- stuff that we won't use very much but are going over anyway
+- might be one q on midterm or final
+
+##### Sessions
+- set to true or false
+```jsp
+<%@ page session="true"%> <%---Default %>
+
+```
+- session is set to true on default
+
