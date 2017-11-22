@@ -9,4 +9,9 @@
 - one q: should we have a lab the week before exam?
   - after 2nd lab test, should we possibly not have labs?
 
+### Overview of last time:
+> Q: What is the main reason we use JSPs?
+> A: Manage the presentation layer, take HTML code blocks out of Java
+
 ## JSP Page Directive
+
