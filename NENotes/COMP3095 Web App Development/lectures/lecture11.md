@@ -12,6 +12,7 @@
 ### Overview of last time:
 > Q: What is the main reason we use JSPs?
 > A: Manage the presentation layer, take HTML code blocks out of Java
+- **Misconception** : Your job is to solve business problems, not just to code
 
 ## JSP Page Directive
 
