@@ -61,8 +61,9 @@
 > Q: What packages will the system think that SomeHelperClass and SomeUtilityClass are in?
 > A : They don't know unless you import the classes in the JSP using import statements
 
-#### Three paths?
-- declaration
-- expression
-
-
+#### Three JSP thingys
+- declarations
+- expressions
+  - produce output (e.g. returning variable to screen)
+- scriptlets:
+  - <% code fragment %>
