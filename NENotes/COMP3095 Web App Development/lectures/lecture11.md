@@ -160,7 +160,7 @@ ComputeSpeed.jsp reported the following error:
    - if JSP **has NOT changed**, container services the request
    - if it's the **FIRST** request, or it **HAS changed**, the container translates the JSP
 2. JSP **translated** into servlet-like implementation class
-3, Servlet undergoes **compilation** = JSP instance
+3. Servlet undergoes **compilation** = JSP instance
 4. Service client request(s)
 5. Eventually instance is **destroyed**
 
@@ -177,3 +177,6 @@ ComputeSpeed.jsp reported the following error:
 - updates to included content without changing the main page
 - **dynamic include**
   - e.g. time, date, chatroom? sports scores, news feeds
+  - e.g. Yahoo Page
+	- separate dynamic content
+- cannot affect the main page, only **output** of the included page is used
