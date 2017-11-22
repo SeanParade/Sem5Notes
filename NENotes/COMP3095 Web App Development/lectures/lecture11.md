@@ -21,8 +21,8 @@
 - **MVC** Model View Controller
 - JSPs uniquely "house" the presentation layer of the application
 
->Q: What are JSPs?
->A: Servlets
+> Q: What are JSPs?
+> A: Servlets
 
 <hr>
 
@@ -55,4 +55,10 @@
 
 ```
 - imports statements at the top of a servlet definition
+- classes used by JSP pages must be in WEB_INF->classes directory
+- **always use packages for utilities used by JSPs**
+
+> Q: What packages will the system think that SomeHelperClass and SomeUtilityClass are in?
+> A : They don't know unless you import the classes in the JSP using import statements
+
 
