@@ -54,5 +54,5 @@
 <%@ page import="package.class1"%>
 
 ```
-
+- imports statements at the top of a servlet definition
 
