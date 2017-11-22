@@ -6,3 +6,4 @@
 
 ## Midterm Review
 - Module 1 -7 will be in the midterm
+- T/F; MC; ShortAnswer
