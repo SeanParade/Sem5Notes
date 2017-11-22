@@ -180,3 +180,5 @@ ComputeSpeed.jsp reported the following error:
   - e.g. Yahoo Page
 	- separate dynamic content
 - cannot affect the main page, only **output** of the included page is used
+- can include files from WEB-INF
+
