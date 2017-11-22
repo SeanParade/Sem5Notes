@@ -19,5 +19,6 @@ ___
 - Root Motion
   - Basic motion of your character
   - e.g. whale swimming
+- You can change the thresholds of an animation with Parameters in the Animation Controller
 
 ### Quaterians
