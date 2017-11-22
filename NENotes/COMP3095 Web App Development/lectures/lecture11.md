@@ -181,4 +181,5 @@ ComputeSpeed.jsp reported the following error:
 	- separate dynamic content
 - cannot affect the main page, only **output** of the included page is used
 - can include files from WEB-INF
-
+  - make sure you declare the relative URL
+  
