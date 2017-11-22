@@ -185,3 +185,10 @@ ComputeSpeed.jsp reported the following error:
   - page is included at **runtime** ERGO **dynamic**
   
 
+#### Including JSP Pages at Translation Time
+```jsp
+<%@include file="Relative Address"%>
+
+```
+- becomes static because the include happens at **translation time**
+  - once it's there, it's there until it's modified
