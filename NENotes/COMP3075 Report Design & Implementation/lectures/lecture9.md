@@ -19,7 +19,23 @@
 - foreign key in child, primary key in parent
 - can join two tables as long as they share a common column
 
-- expect generic questions about SQL
+### Generic Questions about SQL
+#### Order of clauses in SQL statements
+- SELECT
+- FROM
+- WHERE (condition)
+- GROUP BY
+
+#### Aggregate Functions
+- AVG
+- MIN
+- MAX
+- COUNT
+
+#### How do we filter the rows in specific groups
+- HAVING
+
+
 
 
 
