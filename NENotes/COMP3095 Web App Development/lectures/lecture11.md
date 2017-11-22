@@ -115,4 +115,6 @@
 - servlets 2.3 or earlier default == true
 - servlets 2.4 or later default == false
   - ours is 3.1 == default is FALSE
-  
+- expression language makes your JSPs cleaner
+- makes it less like Java and more like HTML
+
