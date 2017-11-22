@@ -8,6 +8,8 @@
 - Jan 18th Final Exam (last lecture)
 - one q: should we have a lab the week before exam?
   - after 2nd lab test, should we possibly not have labs?
+  
+<hr>
 
 ### Overview of last time:
 > Q: What is the main reason we use JSPs?
