@@ -69,3 +69,9 @@ startService(intent);
 ### Odometer app Example
 - set bound to true
 
+## Service class methods
+- onCreate()
+- onStartCommand()
+  - for started services
+- onBind()
+- onDestroy()
