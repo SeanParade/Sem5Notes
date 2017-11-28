@@ -67,4 +67,5 @@ startService(intent);
 - example Odometer tied to the location
 
 ### Odometer app Example
-- 
+- set bound to true
+
