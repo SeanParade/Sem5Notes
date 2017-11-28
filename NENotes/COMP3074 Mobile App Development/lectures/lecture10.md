@@ -63,3 +63,8 @@ startService(intent);
 ### Example Services
 - LocationService
 
+### Bound Services
+- example Odometer tied to the location
+
+### Odometer app Example
+- 
