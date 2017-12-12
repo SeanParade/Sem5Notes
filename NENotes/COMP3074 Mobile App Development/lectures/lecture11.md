@@ -16,4 +16,5 @@
 - customization within the app
 - keeping in mind the size of most phones
 - for doodle app: how to select colors to use (SeekBars?)
-- options should be intuitively clear
+- menu options should be intuitively clear
+
