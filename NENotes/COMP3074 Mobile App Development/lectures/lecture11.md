@@ -7,3 +7,10 @@
 - detect remove touch
 - multiple fingers
 - generate vectors (direction where player is moving)
+- SensorManager : Accelerometer
+- Paint object: color and width of line
+- Path objects store data : Canvas -> draw lines into Bitmap
+
+### UI
+#### Look and Feel
+- customization within the app
