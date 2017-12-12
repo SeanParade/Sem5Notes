@@ -27,5 +27,6 @@
 - check for permissions before e.g. saving an image to user's photos
 - if they do not have permissions, display to the user to ask them to select
 - save the information
-
+- when user selects something e.g. deny permission; should allow user to select Never ask me again
+  - it's annoying to keep asking
 
