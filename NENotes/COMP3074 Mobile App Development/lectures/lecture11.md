@@ -29,4 +29,5 @@
 - save the information
 - when user selects something e.g. deny permission; should allow user to select Never ask me again
   - it's annoying to keep asking
+  
 
