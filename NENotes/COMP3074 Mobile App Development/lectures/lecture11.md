@@ -18,6 +18,7 @@
 - for doodle app: how to select colors to use (SeekBars?)
 - menu options should be intuitively clear
 - consistency : for color and brush size, the sliding bar is used to select
+- check screen size : orientation landscape for large screens
 
 #### Performance
 > when app is paused, the listeners for sensor events should be removed; save battery etc.
