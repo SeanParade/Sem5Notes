@@ -18,3 +18,4 @@
 - for doodle app: how to select colors to use (SeekBars?)
 - menu options should be intuitively clear
 
+
