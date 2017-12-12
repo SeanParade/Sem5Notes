@@ -19,4 +19,7 @@
 - menu options should be intuitively clear
 - consistency : for color and brush size, the sliding bar is used to select
 
+#### Performance
+> when app is paused, the listeners for sensor events should be removed; save battery etc.
+
 
