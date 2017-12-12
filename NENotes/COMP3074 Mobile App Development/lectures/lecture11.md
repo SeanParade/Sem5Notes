@@ -23,4 +23,9 @@
 #### Performance
 > when app is paused, the listeners for sensor events should be removed; save battery etc.
 
+#### Permissions
+- check for permissions before e.g. saving an image to user's photos
+- if they do not have permissions, display to the user to ask them to select
+- save the information
+
 
