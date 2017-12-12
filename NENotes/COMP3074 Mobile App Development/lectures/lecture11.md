@@ -17,5 +17,6 @@
 - keeping in mind the size of most phones
 - for doodle app: how to select colors to use (SeekBars?)
 - menu options should be intuitively clear
+- consistency : for color and brush size, the sliding bar is used to select
 
 
