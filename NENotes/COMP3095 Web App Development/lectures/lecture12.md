@@ -21,4 +21,6 @@
 
 ## Lecture 15 : Simplifying Access to Java Code
 ### JSP 2 Expression Language
-
+- why use EL expression language
+- understanding basic syntax of EL
+- 
