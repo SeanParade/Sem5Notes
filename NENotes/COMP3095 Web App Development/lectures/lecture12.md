@@ -16,3 +16,9 @@
 - good job on assignments!!!
 - expect marks back for Lab Test 2
   - solutions will also be posted
+  
+<hr>
+
+## Lecture 15 : Simplifying Access to Java Code
+### JSP 2 Expression Language
+
