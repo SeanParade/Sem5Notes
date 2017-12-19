@@ -72,3 +72,6 @@
 - not often you get to work on something innovative
 - becomes monotonous
 
+#### Using EL
+- set Attribute request.setAttribute("customer", someCustomer);
+- call parameter name ${customer.firstName}x
