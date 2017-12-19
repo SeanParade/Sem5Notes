@@ -23,4 +23,6 @@
 ### JSP 2 Expression Language
 - why use EL expression language
 - understanding basic syntax of EL
-- 
+- relationship of EL to MVC
+- referencing scoped variables
+2
