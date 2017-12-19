@@ -5,6 +5,7 @@
   - no further extensions
   - building on assignment 1
   - dissect and partition the work
+  - can use JavaScript 
 - still have lab this week
 - only one lecture left before exam, topic will be **JSF**
 - good job on assignments!!!
