@@ -108,3 +108,6 @@
 - if you want to send redirects
 - if you want to set content type or another technique thats hard to do with MVC
 - scripting is not always bad
+
+#### Accessing Scoped Variables
+- goes from smallest scope > highest scope variable
