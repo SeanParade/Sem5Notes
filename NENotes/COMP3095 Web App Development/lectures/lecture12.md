@@ -101,3 +101,4 @@
   - in <jsp-property-group> tag
   - <scripting-invalid>true<scripting-invalid>
   - not recommended
+- dont use java in your jsps
