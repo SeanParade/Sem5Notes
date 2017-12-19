@@ -102,3 +102,8 @@
   - <scripting-invalid>true<scripting-invalid>
   - not recommended
 - dont use java in your jsps
+
+#### Downsides to limiting scripting in JSP
+- if you want to output to console
+- if you want to send redirects
+- if you want to set content type or another technique thats hard to do with MVC
