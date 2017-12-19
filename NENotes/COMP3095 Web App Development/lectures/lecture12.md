@@ -47,3 +47,8 @@
 - Use servlet to handle requests
 - obtain bean instances
 - store the bean in the **Request**, **Session**, **Servlet Context**
+
+### SideNote:
+- Servlets should be **thin**
+  - they are just **controllers**
+  
