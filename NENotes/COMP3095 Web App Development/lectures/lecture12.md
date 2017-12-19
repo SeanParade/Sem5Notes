@@ -51,4 +51,5 @@
 ### SideNote:
 - Servlets should be **thin**
   - they are just **controllers**
-  
+  - servlet should not be accessing database code
+	- security violation
