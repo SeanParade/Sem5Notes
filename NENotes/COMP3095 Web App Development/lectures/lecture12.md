@@ -92,3 +92,7 @@
 - Servlet invokes JSP page via RequestDispatcher.forward()
 - JSP page reads data from beans
 
+### Other:
+- if you don't want any expressions in your application you can deactivate it in your web.xml document
+- you will probably never need this information
+
