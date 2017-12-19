@@ -41,3 +41,9 @@
    - single request -> multiple possible output results
    - large dev team (Business Logic -- Development)
    - complicated data processing, relatively **fixed** layout
+
+#### Steps to Implement MVC
+1. ID and define beans
+- Use servlet to handle requests
+- obtain bean instances
+- store the bean in the **Request**, **Session**, **Servlet Context**
