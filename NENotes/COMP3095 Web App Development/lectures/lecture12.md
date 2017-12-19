@@ -76,4 +76,7 @@
 - set Attribute request.setAttribute("customer", someCustomer);
 - call parameter name ${customer.firstName}
 - Bean, Servlet and Business logic is not affected by the use of EL
+- Operators
+  - $(test? option1 : option2}
+- Automatic Type Conversion
 
