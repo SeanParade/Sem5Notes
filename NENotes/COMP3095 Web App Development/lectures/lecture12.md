@@ -53,3 +53,5 @@
   - they are just **controllers**
   - servlet should not be accessing database code
 	- security violation
+	- should be abstraction between the servlet and the database access
+	
