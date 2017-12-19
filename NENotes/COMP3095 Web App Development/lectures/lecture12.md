@@ -74,4 +74,5 @@
 
 #### Using EL
 - set Attribute request.setAttribute("customer", someCustomer);
-- call parameter name ${customer.firstName}x
+- call parameter name ${customer.firstName}
+
