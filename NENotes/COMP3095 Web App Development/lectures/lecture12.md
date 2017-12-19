@@ -14,3 +14,5 @@
 - still have lab this week
 - only one lecture left before exam, topic will be **JSF**
 - good job on assignments!!!
+- expect marks back for Lab Test 2
+  - solutions will also be posted
