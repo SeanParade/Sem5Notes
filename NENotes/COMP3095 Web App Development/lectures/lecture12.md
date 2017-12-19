@@ -66,4 +66,7 @@
 
 ### More SideNotes:
 - you will come across a lot of people who hate coding
+- you will also start to hate it
+- not often you get to work on something innovative
+- becomes monotonous
 
