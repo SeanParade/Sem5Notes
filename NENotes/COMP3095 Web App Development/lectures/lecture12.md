@@ -79,4 +79,7 @@
 - Operators
   - $(test? option1 : option2}
 - Automatic Type Conversion
+- Empty Values Instead of Error Messages
+  - missing values, nullpointerexceptions -> empty strings !thrown exceptions
+  
 
