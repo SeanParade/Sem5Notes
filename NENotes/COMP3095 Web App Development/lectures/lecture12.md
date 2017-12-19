@@ -25,4 +25,7 @@
 - understanding basic syntax of EL
 - relationship of EL to MVC
 - referencing scoped variables
-2
+- bean proprties, array/list, map
+- EL operators
+- evaluating expressions conditionally
+
