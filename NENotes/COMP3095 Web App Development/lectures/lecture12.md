@@ -10,6 +10,7 @@
 - SQL scripts : test before handing in 
   - employee and user is the same entity
   - what distinguishes them is the role that the user carries
+- only submit with George Brown e-mails
 - still have lab this week
 - only one lecture left before exam, topic will be **JSF**
 - good job on assignments!!!
