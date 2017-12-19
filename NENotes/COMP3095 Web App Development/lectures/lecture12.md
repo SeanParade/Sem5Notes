@@ -57,4 +57,6 @@
 	- security violation
 	- should be abstraction between the servlet and the database access
 
+#### Drawback of MVC
+- presenting results in the JSP
 
