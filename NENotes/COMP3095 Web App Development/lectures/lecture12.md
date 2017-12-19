@@ -39,5 +39,5 @@
    - format/layout is **fixed**
 3. Combination (MVC Architecture):
    - single request -> multiple possible output results
-   - large dev team
+   - large dev team (Business Logic -- Development)
    - complicated data processing, relatively **fixed** layout
