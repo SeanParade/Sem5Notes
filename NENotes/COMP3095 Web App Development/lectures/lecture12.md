@@ -63,7 +63,9 @@
 - concise/ readable syntax
 - ability to access sub-properties
 - ability to access collections
-- **dont** use JSP scripting elements <% %>
+
+- JSP scripting elements <% %> VS Beans
+
 ### More SideNotes:
 - you will come across a lot of people who hate coding
 - you will also start to hate it
