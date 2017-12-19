@@ -75,4 +75,5 @@
 #### Using EL
 - set Attribute request.setAttribute("customer", someCustomer);
 - call parameter name ${customer.firstName}
+- Bean, Servlet and Business logic is not affected by the use of EL
 
