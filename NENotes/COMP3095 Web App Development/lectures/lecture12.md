@@ -29,3 +29,14 @@
 - EL operators
 - evaluating expressions conditionally
 
+#### Motivation for using EL
+1. Servlet Only:
+   - output is binary (image)
+   - no output (forward/redirect)
+   - format/layout is **variable**
+2. JSP Only:
+   - output is character data (html)
+   - format/layout is **fixed**
+3. Combination (MVC Architecture):
+   - single request -> multiple possible output results
+   - 
