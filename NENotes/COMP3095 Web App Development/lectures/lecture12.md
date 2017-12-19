@@ -95,4 +95,9 @@
 ### Other:
 - if you don't want any expressions in your application you can deactivate it in your web.xml document
 - you will probably never need this information
+- use \ as escape if you need to print literal ${
+- alternatively: if you want **only** expression language allowed & not JSP Scriplets, etc
+  - in web.xml
+  - in <jsp-property-group> tag
+  - <scripting-invalid>true<scripting-invalid>
 
