@@ -83,4 +83,12 @@
   - missing values, nullpointerexceptions -> empty strings !thrown exceptions
 - use Servlets 3.1 or GREATER
 
+### Summary:
+- why we use MVC
+- Approach:
+  - Servlet answers original incoming request
+  - Servlet calls business logic and stores results in beans
+  - beans are stored in HttpServeltRequest, Session, ServletContext
+- Servlet invokes JSP page via RequestDispatcher.forward()
+- JSP page reads data from beans
 
