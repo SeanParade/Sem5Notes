@@ -59,4 +59,11 @@
 
 #### Drawback of MVC
 - presenting results in the JSP
+##### Goal:
+- concise/ readable syntax
+- ability to access sub-properties
+- ability to access collections
+
+### More SideNotes:
+- you will come across a lot of people who hate coding
 
