@@ -4,6 +4,7 @@
   - get them in on the 4th
   - no further extensions
   - building on assignment 1
+  - dissect and partition the work
 - still have lab this week
 - only one lecture left before exam, topic will be **JSF**
 - good job on assignments!!!
