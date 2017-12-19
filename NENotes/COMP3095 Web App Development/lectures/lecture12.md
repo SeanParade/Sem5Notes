@@ -81,5 +81,6 @@
 - Automatic Type Conversion
 - Empty Values Instead of Error Messages
   - missing values, nullpointerexceptions -> empty strings !thrown exceptions
-  
+- use Servlets 3.1 or GREATER
+
 
