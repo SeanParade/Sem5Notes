@@ -12,4 +12,16 @@ ___
 - Project
   - group assignment
   - puzzle game or restaraunt/wine (list) tracker
-  - Groups by Feb 10
+  - Groups submitted by Feb 10
+  - Prototype due March 29
+  
+### Swift
+- Very similar to TypeScript
+- successor to C and Objective-C langs
+- readable
+- can be run side-by side with objective-c in the same project
+- strong typing
+- smart type inference 
+  - typing can be skipped in most cases
+- auto memory management
+- 
