@@ -39,7 +39,7 @@ ___
 - protocols mimic abstract classes
 - classes, enumerations, and structs can implement protocols
 - Extensions add functionality to an exisiting class (new methods, computed properties, etc)
-- generics use <T> but you can add letters to add different types <T,U>
+- generics use <T> but you can add letters to add different types <T, U>
 
 
 ```swift
