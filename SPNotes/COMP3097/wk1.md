@@ -24,4 +24,16 @@ ___
 - smart type inference 
   - typing can be skipped in most cases
 - auto memory management
-- 
+- iOS 7+ / OSX 10.9+
+
+```swift
+// hello world
+println("Hello World")
+
+/////
+
+var myVar = 42
+myVar = 50
+// let is always keyword for a constant
+let myConstant = 42
+```
