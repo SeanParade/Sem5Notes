@@ -32,6 +32,27 @@
 	- conceptual, then logical, physical
 		- business terms, technical terms
 	- banks will love you
+6. Machine Learning
+	- training
+7. Artificial Intelligence
+8. Association Mining
+9. Prediction, Association Mining, Clustering
+	- confidence levels
+	- how much data is related to other data?
+	- goes with visualizations
+10. Multi-Dimensional Data Models*
+11. Big Data
+12. Parallel Processing/Computing
+	- mapreduce
+	- Hadoop
+	- spark
+
+### Tools to download and play with
+- NodeXL: $5 fee
+	- download data from twitter, facebook, etc.
+- Gephi
+- D3js.org
+- New York Times uses these 3 tools
 
 ### No idea but look this up, probably not the mythology
 - Hyperion?
@@ -67,3 +88,19 @@
 - press Paragraph symbol and remove
 - other tricks
 - lots of repos for cleansing data
+
+### How do we start a project?
+- Get requirements from the client
+- have to play some stupid game about talking to people
+
+### Reverse Lecture
+- read the chapters, about the concept being taught
+- discuss the topic during the class
+
+### Other Notes
+- prof doesn't have access to blackboard yet
+
+
+### Next class:
+- 10 minute exercise
+	- come 10 minutes late :)
