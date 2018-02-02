@@ -1,0 +1,7 @@
+1. take tweets
+2. save tweets in dictionary with phoneme as key
+3. match tweets by phoneme
+	- a. determine phoneme similarity
+	- b. if similarity > (some number) store both tweets as matches
+	- c. return matches
+4. display matches
