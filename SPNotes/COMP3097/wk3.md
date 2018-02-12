@@ -36,12 +36,14 @@ ___
   ``` Swift
      var totalSteps: Int = 0 {
 	   willSet(newTotalSteps){
-	     print("About to change totalSteps to /(newTotalSteps)")
+	     print("About to change totalSteps to \(newTotalSteps)")
 	   }
 	 }
   ```
 - Initializing var with other class var/let
   - `var byTwo : Int { return self.number / 2 }`
+  - can use a combination of lazy and computed initialization
+
   
 ### Structures
 
