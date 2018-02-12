@@ -44,6 +44,14 @@ ___
   - `var byTwo : Int { return self.number / 2 }`
   - can use a combination of lazy and computed initialization
   
+- similar to a struct, except
+ - are reference types
+   - mutability
+   - multiple Inheritance
+
+#### Class v Struct
+- instance declared with let can change values of its properties while struct instance declared the same way cannot
+
 ### Structures
 - Subscripts are weird and I don't understand them.
 - subscripts let you access a specific place in the structure and replace its value with the new value (same as array)
@@ -54,10 +62,18 @@ ___
   - All variables are strong by default
 - Weak
   - `weak var tenant: Person?`
-  
- 
 
 ### Enumeration
+- Named integers
+- can construct a case whose conatant value can be set when the instance is created.
+- can have instance and static properties and methods
+- methods can depend on the actual case (instance of the enum)
+
+### Struct
+- nearly all the builts in object types provided by swift are structs
+- copied in the function calls
+- can have properties and methods
+- can be used to group ....
 
 ### Map
 
