@@ -43,9 +43,10 @@ ___
 - Initializing var with other class var/let
   - `var byTwo : Int { return self.number / 2 }`
   - can use a combination of lazy and computed initialization
-
   
 ### Structures
+- Subscripts are weird and I don't understand them.
+- subscripts let you access a specific place in the structure and replace its value with the new value (same as array)
 
 ### Enumeration
 
@@ -60,4 +61,5 @@ ___
 - use question mark to say a value can be nil (optional)
 - use exclamation mark to demand an optional to be unwrapped
   - i.e. I know this has a value, give me the value.
-  - comes directly after the variable (no space 
+  - comes directly after the variable (no space)
+- lazy initialization waits until it is being called to initialize
