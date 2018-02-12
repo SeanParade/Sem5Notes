@@ -93,6 +93,11 @@ let squares = values.map {$0 * $0}
 
 #### Filter
 - used to loop over a collection and return an Array containing only those elements that match an included condition
+```Swift
+let digits = [1,4,10,15]
+let even = digits.filter({$0 % 2 == 0})
+// [4,10]
+```
 
 #### Reduce
 - used to combine all items in a collection to create a single new value.
