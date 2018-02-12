@@ -47,6 +47,15 @@ ___
 ### Structures
 - Subscripts are weird and I don't understand them.
 - subscripts let you access a specific place in the structure and replace its value with the new value (same as array)
+- Weak and strong references
+ - Strong
+  - `john` has apartment `unit4a`, and `unit4a` has tenant `john` 
+  - possible with optionals (`Apartment?`) and declaring one of the references as `weak`
+  - All variables are strong by default
+- Weak
+  - `weak var tenant: Person?`
+  
+ 
 
 ### Enumeration
 
