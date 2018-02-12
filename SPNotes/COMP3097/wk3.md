@@ -75,11 +75,27 @@ ___
 - can have properties and methods
 - can be used to group ....
 
-### Map
+### CLosures
+- Self-contained blocks of functionality
+- essentially an anonymous function
+- can be stored
+- can access anything in there scope
+- have serveral shorthands, though they typically make code less readable
 
-### Filter
+### Collections
+#### Map
+- used to loop over a collection and apply the same operation to each element in the collection
+```Swift
+let values = [2,4,5,7]
+let squares = values.map {$0 * $0}
+// squares = [4,16,25,49]
+```
 
-### Reduce
+#### Filter
+- used to loop over a collection and return an Array containing only those elements that match an included condition
+
+#### Reduce
+- used to combine all items in a collection to create a single new value.
 
 
 ### Review
