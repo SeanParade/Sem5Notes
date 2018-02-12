@@ -16,17 +16,33 @@ ___
   ```Swift 
      init!(name:String, license:Int){...
 	 //error cases
-	 if name.isEmpty{
+	 if name.isEmpty {
     	 return nil
 	 }
 	 if license <= 0 {
 	     return nil
 	 }
   ```
-  - 
 
 ### Classes
-- 
+- Properties have a fixed type
+  - can be declared with var or let
+  - can be stored or computed
+  - can have setter observer (notified that the variable will be / has been changed)
+  - instance property can be lazy
+- observers
+  - `willSet` is called just before value is changed
+  - `didSet` is called just after
+  ``` Swift
+     var totalSteps: Int = 0 {
+	   willSet(newTotalSteps){
+	     print("About to change totalSteps to /(newTotalSteps)")
+	   }
+	 }
+  ```
+- Initializing var with other class var/let
+  - `var byTwo : Int { return self.number / 2 }`
+  
 ### Structures
 
 ### Enumeration
@@ -36,3 +52,10 @@ ___
 ### Filter
 
 ### Reduce
+
+
+### Review
+- use question mark to say a value can be nil (optional)
+- use exclamation mark to demand an optional to be unwrapped
+  - i.e. I know this has a value, give me the value.
+  - comes directly after the variable (no space 
